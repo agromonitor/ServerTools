@@ -1,0 +1,15 @@
+AgroMonitorTech
+
+DigitalOceanIP=107.170.244.39
+	:80 WebUI
+	:81/index.php?*** Data
+	:82 phpMyAdmin
+
+1.-Enable Listen *ports in apache2 Config
+2.-Edit enabled-sites with the configs of each site (WebUI Data and phpMyAdmin)
+
+
+PHP data string:
+	/index.php?user=***&password=***&HUM=***&TEMP=***&LIGHT=***&SOIL_HUM=***
+	eg.:
+		index.php?user=AMT&password=grandmx2015&HUM=50.5&TEMP=35.7&LIGHT=70.8&SOIL_HUM=85.244

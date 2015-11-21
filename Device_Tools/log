@@ -1,0 +1,2 @@
+g++ -Wall -g3 -static -Llibs/x86/curl/lib -Ilibs/x86/curl/include -o x86-server-com ServerComm.cpp -lcurl
+g++ -Wall -g3 -static -Llibs/x86/curl/lib -Ilibs/x86/curl/include -o x86-server-com ServerComm.cpp -lcurl
