@@ -5,6 +5,8 @@ $passwordDB = "***";
 $dbname = "***";
 $SensorData = "***";
 
+//
+
 //DataFromQuery from device
 $user = $_POST['user'];
 $password = $_POST['password'];
